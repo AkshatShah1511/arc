@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "ARC",
+    "description": "Manual signal capture for agentic research workflows",
+    "version": "0.1.0",
+  
+    "action": {
+      "default_popup": "popup/popup.html"
+    },
+  
+    "background": {
+      "service_worker": "background.js"
+    },
+  
+   "permissions": ["identity"],
+ "host_permissions": [
+  "https://www.googleapis.com/*",
+  "https://sheets.googleapis.com/*"
+ ],
+ "oauth2": {
+  "client_id": "1082523014826-h1ob12efb5s7tn6a2a16ujsiff3a9peq.apps.googleusercontent.com",
+  "scopes": [
+    "https://www.googleapis.com/auth/spreadsheets"
+  ]
+}
+}
+  
