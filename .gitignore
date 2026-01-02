@@ -24,3 +24,20 @@ build/
 .env
 .env.local
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# OAuth tokens and credentials
+token.json
+credentials.json
+*.json.bak
+
+# Python virtual environments
+venv/
+env/
+ENV/
+

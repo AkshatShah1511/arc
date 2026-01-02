@@ -15,7 +15,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       const timestamp = new Date().toISOString();
 
       const body = {
-        values: [[ "", timestamp, url, email ]]
+        values: [[ "", timestamp, url, email, "NEW" ]]
       };
 
       try {
